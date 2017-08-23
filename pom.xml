@@ -20,7 +20,7 @@
     <artifactId>im4java</artifactId>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <description>img4java</description>
     <properties>
         <skip_maven_deploy>true</skip_maven_deploy>
