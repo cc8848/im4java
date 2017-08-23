@@ -14,7 +14,7 @@ thumbnail 200x200!
 ```
 
 
-2. add scala Special sample Special 
+2. add scale Special and  sample Special 
 
 
 ```
@@ -22,5 +22,17 @@ thumbnail 200x200!
 scale 200x200!
 
 sample 200*200!
+
+```
+
+3. maven package ,install local 
+
+
+
+```
+
+mvn clean package  -X  -Dmaven.test.skip 
+
+mvn clean install  -X  -Dmaven.test.skip 
 
 ```
