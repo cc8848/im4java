@@ -7362,14 +7362,15 @@ public class GMOps extends Operation {
         if (height != null) {
             buf.append(height.toString());
         }
-        if (buf.length() > 0) {
-            iCmdArgs.add(buf.toString());
-        }
 
         if (height != null || special != null) {
         }
         if (special != null) {
             buf.append(special.toString());
+        }
+
+        if (buf.length() > 0) {
+            iCmdArgs.add(buf.toString());
         }
         return this;
     }
